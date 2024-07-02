@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "whisper",
+        "repositoryURL": "https://github.com/duykienvp/whisper.cpp.git",
+        "state": {
+          "branch": "a393841",
+          "revision": "a39384177a6746681ad708de10611b25c114eeb1",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
