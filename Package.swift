@@ -24,7 +24,7 @@ let package = Package(
             // and from where they can be fetched:
             .package(
                 url: "https://github.com/duykienvp/whisper.cpp.git",
-                .revision("a393841")  // 1.6.2 + coreml 
+                .revision("c118733a29ad4a984015a5c08fd585086d01087a")  // 1.6.2
             )
         ],
     targets: [

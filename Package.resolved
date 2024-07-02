@@ -5,8 +5,8 @@
         "package": "whisper",
         "repositoryURL": "https://github.com/duykienvp/whisper.cpp.git",
         "state": {
-          "branch": "a393841",
-          "revision": "a39384177a6746681ad708de10611b25c114eeb1",
+          "branch": null,
+          "revision": "c118733a29ad4a984015a5c08fd585086d01087a",
           "version": null
         }
       }
