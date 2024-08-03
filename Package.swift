@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.9
 import PackageDescription
 
 var exclude: [String] = []
@@ -11,10 +11,8 @@ exclude.append("coreml")
 let package = Package(
     name: "SwiftWhisper",
     platforms: [
-        .macOS(.v12),
-        .iOS(.v14),
-        .watchOS(.v4),
-        .tvOS(.v14)
+        .macOS(.v14),
+        .iOS(.v17),
     ],
     products: [
         .library(name: "SwiftWhisper", targets: ["SwiftWhisper"])
@@ -23,8 +21,7 @@ let package = Package(
             // Here we define our package's external dependencies
             // and from where they can be fetched:
             .package(
-                url: "https://github.com/duykienvp/whisper.cpp.git",
-                .revision("c118733a29ad4a984015a5c08fd585086d01087a")  // 1.6.2
+                name: "whisper.cpp", path: "../whisper.cpp"
             )
         ],
     targets: [
