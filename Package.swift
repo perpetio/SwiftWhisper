@@ -21,7 +21,8 @@ let package = Package(
             // Here we define our package's external dependencies
             // and from where they can be fetched:
         .package(
-            url: "https://github.com/ggerganov/whisper.cpp.git"
+            url: "https://github.com/ggerganov/whisper.cpp.git",
+            from: "1.7.2"
         )
         ],
     targets: [
