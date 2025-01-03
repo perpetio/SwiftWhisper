@@ -26,7 +26,7 @@ let package = Package(
         )
         ],
     targets: [
-        .target(name: "SwiftWhisper", dependencies: [.product(name: "whisper", package: "whisper.cpp")]),
+        .target(name: "SwiftWhisper", dependencies: [.product(name: "whisper", package: "whisper")]),
         .testTarget(name: "WhisperTests", dependencies: [.target(name: "SwiftWhisper")], resources: [.copy("TestResources/")])
     ],
     cxxLanguageStandard: CXXLanguageStandard.cxx11
