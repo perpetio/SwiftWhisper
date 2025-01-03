@@ -20,9 +20,9 @@ let package = Package(
     dependencies: [
             // Here we define our package's external dependencies
             // and from where they can be fetched:
-            .package(
-                name: "whisper.cpp", path: "../whisper.cpp"
-            )
+        .package(
+            url: "https://github.com/ggerganov/whisper.cpp.git"
+        )
         ],
     targets: [
         .target(name: "SwiftWhisper", dependencies: [.product(name: "whisper", package: "whisper.cpp")]),
